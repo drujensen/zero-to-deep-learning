@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+tensorflow-macos = "*"
+tensorflow-metal = "*"
+keras = "*"
+torchviz = "*"
+matplotlib = "*"
+numpy = "*"
+jupyterlab = "*"
+scikit-learn = "*"
+pandas = "*"
+scipy = "*"
+pillow = "*"
+seaborn = "*"
+h5py = "*"
+
+[dev-packages]
+pyright = "*"
+python-language-server = "*"
+python-lsp-server = "*"
+
+[requires]
+python_version = "3.11"
